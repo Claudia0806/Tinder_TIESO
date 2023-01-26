@@ -5,22 +5,22 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <div class="container">
-      <h1>Register</h1>
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
+    <h1>Registrate</h1>
+    <div class = "container">
+        <form action="ws/UserCreation" method="post" enctype="multipart/form-data">
+            <input type="text" placeholder="Nombre Completo" name="fullname" id="fullname" value="Rafael">
+            <br/>
+            <input type="text" placeholder="Correo" name="email" id="email" value="rafa@mail.com">
+            <br/>
+            <input type="file" name="imagen" id="imagen" >
+            <br/>
+            
+
+            <input type="submit" value="Register">
+
+
         
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-        
-        <label for="confirm-password">Confirm Password:</label>
-        <input type="password" id="confirm-password" name="confirm-password" required>
-        
-        <input type="submit" value="Register">
+    
       </form>
     </div>
   </body>
