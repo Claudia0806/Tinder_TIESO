@@ -54,4 +54,9 @@ body {
   input[type="submit"]:hover {
     background-color: #3e8e41;
   }
+
+  input[type="file"] {
+    margin-bottom: 20px;
+
+  }
   
