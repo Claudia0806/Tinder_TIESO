@@ -92,7 +92,7 @@ public class UserCreation extends HttpServlet {
 				
 				//If insertion is valid then we redirect the user to the spotify part
 				if (obj != null)
-					response.sendRedirect("SpotifyAPI.jsp");
+					response.sendRedirect("SpotifyAPIUse");
 				else
 				{
 					response.sendRedirect("./Error.html");
